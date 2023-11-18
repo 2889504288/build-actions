@@ -1,1 +1,27 @@
-
+CONFIG_TARGET_ramips=y
+CONFIG_TARGET_ramips_mt76x8=y
+CONFIG_TARGET_ramips_mt76x8_DEVICE_xiaomi_miwifi-nano=y
+CONFIG_PACKAGE_ipset=y
+CONFIG_PACKAGE_iptables-mod-conntrack-extra=y
+CONFIG_PACKAGE_iptables-mod-filter=y
+CONFIG_PACKAGE_iptables-mod-ipopt=y
+CONFIG_PACKAGE_iptables-mod-nfqueue=y
+CONFIG_PACKAGE_kmod-ipt-conntrack-extra=y
+CONFIG_PACKAGE_kmod-ipt-filter=y
+CONFIG_PACKAGE_kmod-ipt-ipopt=y
+CONFIG_PACKAGE_kmod-ipt-nfqueue=y
+# CONFIG_PACKAGE_kmod-ipt-offload is not set
+# CONFIG_PACKAGE_kmod-nf-flow is not set
+CONFIG_PACKAGE_kmod-nfnetlink-queue=y
+# CONFIG_PACKAGE_libcap is not set
+CONFIG_PACKAGE_libipset=y
+CONFIG_PACKAGE_libnetfilter-queue=y
+# CONFIG_PACKAGE_libuv is not set
+# CONFIG_PACKAGE_libwebsockets-full is not set
+# CONFIG_PACKAGE_luci-app-autoupdate is not set
+# CONFIG_PACKAGE_luci-app-ttyd is not set
+# CONFIG_PACKAGE_luci-app-turboacc is not set
+# CONFIG_PACKAGE_ttyd is not set
+CONFIG_PACKAGE_ua2f=y
+CONFIG_UA2F_CUSTOM_USER_AGENT=y
+CONFIG_UA2F_USER_AGENT_STRING="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.68"
